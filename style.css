@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lightseagreen;
+    color: #333;
+}
+.btn {
+    display: block;
+    margin: 20px auto 0;
+}
+.quotecontainer {
+    text-align: center;
+    width: 50%;
+    padding: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    margin-top: -200px;
+}
+.quote {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.author {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+.delius-regular {
+font-family: "Delius", serif;
+font-weight: 600;
+font-style: normal;
+}
+button {
+    padding: 10px 20px;
+    background-color: #055057;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(199, 248, 246);
+    margin-top: 20px;
+}
+.button:enabled {
+    background-color: #055057;
+    cursor: pointer;
+}
+
+.autobtn:disabled{
+    background-color: #147d85;
+    cursor: not-allowed;
+}
+.btn:disabled{
+    background-color: #147d85;
+    cursor: not-allowed;
+}
+.stopbtn:disabled{
+    background-color: #147d85;
+    cursor: not-allowed;
+}

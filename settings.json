@@ -1,0 +1,9 @@
+{
+    // ...existing settings...
+    "github.copilot.ignoredLanguages": [
+        "javascript",
+        "js"
+        // ...other ignored languages...
+    ]
+    // ...existing settings...
+}
